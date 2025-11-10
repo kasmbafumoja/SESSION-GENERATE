@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kas Universe - Pairing</title>
+  <style>
+    body { display: flex; justify-content: center; align-items: center; height: 100vh; background: #000; font-family: 'Poppins', sans-serif; color: white; }
+    .box { text-align: center; background: #111; padding: 40px; border-radius: 20px; box-shadow: 0 0 20px #00ffe7; }
+    input { padding: 10px; border-radius: 10px; border: none; margin-bottom: 20px; width: 80%; }
+    button { padding: 10px 20px; border-radius: 10px; border: none; background: #00ffe7; color: #000; cursor: pointer; font-weight: bold; }
+    .code { margin-top: 20px; font-size: 1.5em; color: #ff00cc; }
+  </style>
+</head>
+<body>
+  <div class="box">
+    <h2>Kas Universe Pairing</h2>
+    <input type="text" id="number" placeholder="Entrez votre numéro WhatsApp">
+    <br>
+    <button onclick="getCode()">Obtenir mon code 🚀</button>
+    <div class="code" id="code"></div>
+  </div>
+  <script src="pair.js"></script>
+</body>
+</html>
